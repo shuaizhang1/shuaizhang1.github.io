@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+     #dv{
+     	width: 200px;
+     	height: 200px;
+     	border: 1px solid;
+     	border-radius: 50%;
+     	position: absolute;
+     	background:red;
+     	z-index: 222;
+     }
+      #left{
+     	width: 50px;
+     	height: 100px;
+     	border: 1px solid;
+     	border-top-left-radius: 50%;
+     	border-top-right-radius: 50%;
+     	position: absolute;
+     	left: 10px;
+     	background: green;
+     }
+  #right{
+     	width: 50px;
+     	height: 100px;
+     	border: 1px solid;
+     	border-top-left-radius: 50%;
+     	border-top-right-radius: 50%;
+     	position: absolute;
+     	left: 155px;
+     	background: green;
+     }
+     .zuo,.you{
+     	width: 30px;
+     	height: 30px;
+     	border: 1px solid;
+     	border-radius: 50%;
+     	position: absolute;
+     	background:#fff;
+     }
+     .zuo{
+     	left: 40px;
+     	top: 50px;
+     }
+     .you{
+     	left: 110px;
+     	top: 50px;
+     }
+     .bi{
+     	width: 20px;
+     	height: 20px;
+     	border: 1px solid;
+     	border-radius: 50%;
+     	position: absolute;
+     	background:#fff;
+     	left: 80px;
+     	top: 100px;
+     }
+     .mao1{
+     	position: absolute;
+     	width: 30px;
+     	height: 0px;
+     	border: 1px solid;
+     	left: -28px;
+     	transform:rotate(9deg);
+     }
+      .mao2{
+     	position: absolute;
+     	width: 40px;
+     	height: 0px;
+     	border: 1px solid;
+     	left: -42px;
+     	top: 7px;
+     }
+      .mao3{
+     	position: absolute;
+     	width: 30px;
+     	height: 0px;
+     	border: 1px solid;
+     	left: -30px;
+     	top: 16px;
+     	transform:rotate(-7deg);
+     }
+      .mao4{
+     	position: absolute;
+     	width: 30px;
+     	height: 0px;
+     	border: 1px solid;
+     	left: 17px;
+     	top: 0px;
+     	transform:rotate(-7deg);
+     }
+      .mao5{
+     	position: absolute;
+     	width: 40px;
+     	height: 0px;
+     	border: 1px solid;
+     	left: 20px;
+     	top: 7px;
+
+     }
+      .mao6{
+     	position: absolute;
+     	width: 30px;
+     	height: 0px;
+     	border: 1px solid;
+     	left: 18px;
+     	top: 16px;
+     	transform:rotate(7deg);
+     }
+	</style>
+</head>
+<body>
+	<div id="dv">
+		<div class="zuo"></div>
+		<div class="you"></div>
+		<div class="bi">
+			<div class="mao1"></div>
+			<div class="mao2"></div>
+			<div class="mao3"></div>
+				<div class="mao4"></div>
+			<div class="mao5"></div>
+			<div class="mao6"></div>
+		</div>
+	</div>
+	<div id="left"></div>
+	<div id="right"></div>
+</body>
+</html>

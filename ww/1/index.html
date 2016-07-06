@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+<meta charset="UTF-8">
 <style> 
 div
 {
@@ -8,16 +10,21 @@ width:100px;
 height:100px;
 background:yellow;
 transition:2s all ;
+position: absolute;
+left: 0%;
   --webkit-box-shadow:6px 0px 4px red, 3px -5px 5px yellow, -3px -0px 5px blue, 0px 5px 5px green;
 -moz-box-shadow:6px 0px 5px red, 3px -5px 5px yellow, -3px -0px 5px blue, 0px 5px 5px green;
 box-shadow: 6px 0px 5px red, 3px -5px 5px yellow, -3px -0px 5px blue, 0px 5px 5px green;
+
 }
 
 div:hover
 {
 width:100px;
 height:100px;
-transition:2s all ;
+position: absolute;
+left: 20%;
+transition:left 2s,all 2s;
  --webkit-box-shadow:5px 0px 6px green, 5px -5px 10px yellow, -7px -0px 9px blue, 3px 5px 5px green;
 -moz-box-shadow:5px 0px 4px green, 5px -5px 5px yellow, -7px -0px 5px blue, 3px 5px 5px green;
 box-shadow: 5px 10px 4px green, 5px 5px 5px yellow, -7px 5px 5px blue, 3px 5px 5px green;
@@ -27,6 +34,7 @@ box-shadow: 5px 10px 4px green, 5px 5px 5px yellow, -7px 5px 5px blue, 3px 5px 5
 <body>
 
 <div></div>
+
 
 
 
