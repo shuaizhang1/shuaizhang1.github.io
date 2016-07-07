@@ -9,9 +9,32 @@
      color: red;
      font-size: 24px;
      }
+     .dv{
+     	float: left;
+     	width: 100px;
+     	height: 100px;
+     	background: blue;
+     }
+     .dv1{
+     	width: 100px;
+     	height: 100px;
+     	background: red;
+     	float: left;
+     }
+     .clear{clear: both;}
+     .clearfix:after{
+　　content:".";
+　　display:block;
+　　height:0;
+　　clear:both;
+　　}
 	</style>
 </head>
-<body>
 	<div class="icon-heart"></div>
+	<div class="clearfix">
+	<div class="dv">月推哦</div>
+	<!-----------<div class="clear"></div>-------->
+	<div class="dv1"></div>
+</div>
 </body>
 </html>
