@@ -10,31 +10,31 @@
      font-size: 24px;
      }
      .dv{
-     	float: left;
+     	float:right;
      	width: 100px;
      	height: 100px;
      	background: blue;
      }
      .dv1{
-     	width: 100px;
-     	height: 100px;
+     	width: 200px;
+     	height: 200px;
      	background: red;
-     	float: left;
+     	
+     }
+     .ddv{
+          width: 200px;
+          height: 400px;
+          margin: 0 auto;
      }
      .clear{clear: both;}
-     .clearfix:after{
-　　content:".";
-　　display:block;
-　　height:0;
-　　clear:both;
-　　}
+    .clearfix{overflow:auto;_height:1%}
 	</style>
 </head>
 	<div class="icon-heart"></div>
-	<div class="clearfix">
-	<div class="dv">月推哦</div>
-	<!-----------<div class="clear"></div>-------->
-	<div class="dv1"></div>
+	<div class="ddv">
+	<div class="dv clearfix">月推哦</div>
+	<!-- <div class="clear"></div> -->
+	<div class="dv1 clearfix"></div>
 </div>
 </body>
 </html>
