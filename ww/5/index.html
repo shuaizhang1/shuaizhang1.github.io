@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear: both;
+	/*给父级浮动*/
+}
+.box{
+	width: 20px;
+	height: 20px;
+	background: red;
+	
+}
+.bo{
+	width: 100px;
+	height: 100px;
+	background:green;
+	padding: 20px;
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    /*给父级不会改变父级的宽度*/
+}
+
+	</style>
+</head>
+<body>
+	<div class="bo clearfix">
+		<div class="box"></div>
+	</div>
+</body>
+</html>
