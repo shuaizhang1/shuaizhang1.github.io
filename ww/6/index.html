@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+      .dv{
+      	width: 50px;
+      	height: 50px;
+      	background: blue;
+      	border-radius: 50%;
+      	margin: 0 auto;
+      }
+       /*如果大于300px，小于700px时读取黄*/
+      @media(min-width: 300px){
+      .dv{
+      	width: 100px;
+      	height: 100px;
+      	background: yellow;
+      	border-radius: 50%;
+      	margin: 0 auto;
+      }
+	  }    
+      	/*大于700px时变    在下边先读取*/
+      	   /*如果大于700px，小于900px时读取红色*/
+	@media(min-width: 700px){
+      .dv{
+      	width: 200px;
+      	height: 200px;
+      	background: red;
+      	border-radius: 50%;
+      	margin: 0 auto;
+      }
+      }
+	</style>
+</head>
+<body>
+	<div class="dv"></div>
+</body>
+</html>
